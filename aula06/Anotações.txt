@@ -1,0 +1,89 @@
+Anotações JAVASCRIPT (curso em video)
+
+_IDENTIFICADORES (nomes das variáveis):_
+
+ - Podem começar com: letras, $ ou _
+ - Não podem começar com números
+ - É possível usar letras ou números
+ - É possíbel usar acentos ou símbolos
+ - Não podem conter espaços
+ - Não podem ser palavras resevadas pela linguagem
+
+
+_DICA: _
+
+- Maiúsculas e minúsculas fazem diferença, sempre manter o padrão.
+
+- Nomes coerentes com a variável, por exemplo:
+	- var nome = nome
+	- var idade = idade
+	- var cidade = cidade
+
+
+_TIPOS PRIMITIVOS:_
+
+todos os valores numéricos são representados por "number"
+todos os valores dentro de aspas são "strings"
+"true" e "false" são do tipo boolean
+
+são eles:
+	*number
+	    - infinity
+	    - NaN
+	*String
+	*boolean
+	*null
+	*undefined
+	*object
+	    - array
+	*function
+
+
+_CONVERSÕES:_
+
+STRING -> NÚMERO:
+        Para conveter uma string para um número, temos que usar os seguintes comandos:
+
+	Number.parseInt(n) - Para números inteiros
+	Number.parseFloat(n)- Para números reais (pontos flutuantes)
+
+	Porém nas novas versões podemos usar somente: 
+	- Number(n) 
+	e o próprio javascript consegue identificar se é um número inteiro ou real (decidindo qual o tipo de valor ele recebeu).
+
+NÚMERO -> STRING:
+	Para conveter um número para uma string, temos que usar os seguintes comandos:
+	
+	- String(n)
+	- n.toString() = o "n" significa aquilo que quero converte.
+
+
+_FORMATANDO STRINGS:_
+
+CONCATENAÇÃO:
+	- através da concatenação usando o sinal de "+" (o jeito mais longo e demorado)
+
+TEMPLATE STRINGS:
+	- utilizando a técnica TemplateStrings (formatando Strings)
+	
+	- A template Strings devemos utilizar "crase" (`) pois ela é a 	  delimitação do Template String, ao invés de aspas ou aspas simples. Também devemos usar o "$" (cifrão) seguido de "{s}" (chaves) que neste caso será chamado de "PLACEHOLDER".
+
+	- slength // quantos caracteres a string tem
+	- s.toUpperCase() // jogar para letras "MAIÚSCULAS"
+	- s.toLowerCase() // joga para letras "minúsculas"
+
+
+FORMATAR NÚMERO COM 2 CASAS DECIMAIS:
+
+EX: n1.toFixed(2) = a variável "n1" + o comando Fixed()" com o valor entre o parênteses do "Fixed()"
+
+também é possível trocar o ponto entre as casas decimais por uma vírgula (como é usado no Brasil) com o seguinte comando:
+
+EX: n1.toFixed(2).replace("." , ",") = trocando o "ponto" por "vírgula".
+
+COMO MOSTRAR VALORES EM REAIS (R$):
+
+EX: n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
+
+
+

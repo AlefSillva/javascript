@@ -1,0 +1,47 @@
+
+
+DOM:
+Document Object Model ou Modelos de Objetos para Documentos.
+
+É a vertente WEB do javascript que está dentro do navegador.
+
+- Basicamente é um Conjunto de objetos dentro do navegador que vai dar acesso aos componentes internos do website.
+
+ÁRVORE DOM:
+começa da raiz, que chamamos de: 'window'
+
+dentro do 'window' temos outros objetos, como:
+location | document | histoy
+
+# location: Diz qual a localização do site, qual a URL, qual a página atual, e qual a anterior.
+
+# document: documento atual (dentro fo 'document', temos o arquivo 'HTML'(parent - pai ou mãe) e dentro dele temos dois filhos (child): 
+head | body.
+
+No exercício criado na pasta dessa anotação temos:
+- Dentro de HEAD temos: meta | title | 
+
+- Dentro de BODY temos: h1 | p | p(strong) | div
+
+# history: que vai guardando de onde viemos para onde iremos
+
+OBS: Elementos são todos os itens que aparecem dentro da árvore DOM, que podem ser acessados individualmente.
+
+MÉTODOS DE ACESSO DOS ELEMENTOS:
+ por Marca | por ID | por Nome | por Classe | por Seletor 
+
+por Marca (ou TagName): getElementsByTagName()
+com este comando é possível selecionais mais de um Objeto
+
+por ID: getElementById()
+
+por Nome: getElementsByName()
+quando o comando possue "s" no fim da palavra "Element" temos que usar "[]" no final para selecionar o número do elemento que estamos requisitando.
+
+por Classe: getElementsByClassName()
+
+por Seletor: querySelector() / querySelectorAll()
+
+
+
+

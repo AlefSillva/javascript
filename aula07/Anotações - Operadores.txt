@@ -1,0 +1,58 @@
+Operadores:
+
+- aritméticos
+- atribuição
+- relacionais
+- lógicos
+- ternário
+
+obs: "**" é um operador de potência (nas novas versões)
+
+Ordem de precedência dos operadores:
+
+1 - "()" - parênteses
+2 - "**" - potência
+3 - "* / %" - multiplicação, divisão e resto da divisão
+4 - "+ -" - adição e subtração
+
+obs: na ordem de precedência o operador da mesma classificação que aparecer primeiro será usado primeiro. (por exemplo: se "*" e "/" aparecerem juntos aquele que vier primeiro será feito primeiro.)
+
+
+Operador de atribuição:
+
+"=" - o sinal de igual significa: RECEBE
+ex: var a = valor - ou seja a variável "a" recebe um determinado valor.
+
+auto-atribuições:
+ex:
+var n = 3
+n = n + 4
+
+a variável "n" tem o valor de "3", porém depois que atribuímos que 
+"n" recebe (=) o valor dela mesma(3) e soma com "4", o resultado final de "n" será o resultado de seu primeiro valor + 4, ou seja, "n" agora
+vale 7.
+
+Simplificações:
+ex:
+var n = 3
+n = n + 4
+
+que simplificada ficará: "n += 4"
+
+obs: essa simplificação só pode ser usada se a variável receber ela mesma + 4 como no exemplo acima.
+
+OPERADORES DE INCREMENTO (é um simplificador ainda maior que o anterior:
+ex: 
+var x = 5
+x = x + 1
+
+- simplificado ficará: "x ++" 
+ele mostrará o mesmo valor(5), porém ao chamarmos a variável "n"
+o programa trará o novo valor com acréscimo.
+
+- também é possivel usar o "++" antes da variável, que já traria o resultado direto, sem a necessidade de chamar novamente a variável.
+
+ex: ao invés de "n ++" ficará "++ n".
+
+
+

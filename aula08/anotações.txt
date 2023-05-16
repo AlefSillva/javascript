@@ -1,0 +1,53 @@
+OPERADORES:
+RELACIONAIS | LÓGICOS | TERNÁRIO
+
+RELACIONAIS:  > | < | >= | <= | == | !=
+
+OPERADOR DE IGUALDADE RESTRITA: "==="
+Ele testa se valor e tipo são iguais
+
+ex: 5 == 5 : ambos os valores são números e o JS entende que são iguais.
+
+ex 2 : 5 == '5' : o primeiro valor é um número, já o segundo é uma String, mas ainda assim possuem a mesma 'grandeza', o que faz com que o JS entenda que ambos são iguais.
+
+Ex 3: agora se usarmos o sinal "===" o JS irá testa o valor e o tipo:
+
+5 === '5' : o JS entenderá que o primeiro valor é do tipo número e o segundo do tipo string, o que dará uma resposta "false" pois apesar do dos valores serem iguais, os tipos não são.
+
+obs: desigual restristo "!==" (exclamação + dois sinais de igual)
+valores iguais e tipos diferentes
+
+OPERADORES LÓGICOS:
+! = NEGAÇÃO 
+&& = CONJUNÇÃO - (Possue dois valores lógicos, um de cada lado, só é verdadeiro se todos forem verdadeiros ('true')
+
+|| = DISJUNÇÃO [E / OU] - (Possue dois valores lógicos, um de cada lado, basta que somente um resultado seja verdadeiro, para que o resultado final seja 'true') 
+
+OBS: Quando se tem Operadores Aritméticos, Relacionais e Lógicos nas mesma expressão existe uma ordem em que são resolvidos:
+
+ORDENS DE PRECEDÊNCIA:
+1º Aritméticos
+2º Relacionais
+3º Lógicos
+
+e se caso numa mesma expressão houver um 'E' (&&), um 'OU' (||), e um 'NÃO' (!). A ordem é:
+
+1º Não (!)
+2º E (&&)
+3º Ou (||)
+
+OPERADOR TERNÁRIO:
+'? :' - Ambos dentro da mesma expressão
+
+Ele se chama ternário porque possue três partes, divididos em 3 blocos:
+
+ex: "teste ? true : false" (bloco teste, bloco verdadeiro, bloco falso)
+
+BLOCO TESTE(LÓGICO):
+teste-lógico = é um teste cujo o resultado é verdadeiro ou falso.
+
+BLOCO VERDAOEIRO:
+Diz o que acontece quando o "teste-lógico" for verdadeiro.
+
+BLOCO FALSO:
+Diz o que acontece quando o "teste-lógico" for falso.
