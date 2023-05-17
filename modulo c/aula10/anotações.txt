@@ -1,0 +1,37 @@
+
+
+EVENTOS DOM:
+Evento é tudo aquilo que possa acontecer com esse elemento.
+
+EXEMPLOS: 
+Eventos de Mouse:
+- mouseenter: colocar o cursor do mouse no elemento
+- mousemove: mover o mouse dentro do elemnto
+- mousedown = clicar e segurar
+- mouseup = momento em que o botão do mouse foi solto
+- click = clicar e soltar (sem segurar como no 'mousedown')
+- mouseout = Ao mover o cursor do mouse para fora do elemento
+
+FUNÇÕES:
+Função é um conjunto de códigos ou linhas que irão ser executadas somente quando determinado evento acontecer. Para que uma parte específica do código (linhas de código) sejam executadas, é necessário colocá-la dentro de um bloco. ( que é delimitado por sinal de "{}"
+
+obs: uma função também pode ser usada sem nome, que será identificada como "Função Anônima", 
+EX: 'function {
+
+}'
+
+O bloco tem de ser nomeado com uma "function" {}.
+Normalmente os nomes atribuídos a uma função são ações de evento ( o que vai acontecer) dentro de "()".
+Opcionamente, podemos adicionar parâmetros dentro dos parêntenses.
+
+/* 
+AO INVÉS DE USAR O HTML PARA DISPARAR OS ELEMENTOS USANDO: 
+COMANDOS('onclick = 'clicar()' 'mouseenter = 'entrar()", etc) dentro da DIV ou ELEMENTO que estiver sendo usado para o disparo dos eventos.
+
+*/
+
+Podemos usar OUVIDORES:
+usando 'nomeDaVariavel.addEventListener' : essa função irá prestar atenção em um determinado evento.
+
+
+OBS: é possível detectar erros no código, como erros de digitação, usando o DEV TOOLS do google chrome.
